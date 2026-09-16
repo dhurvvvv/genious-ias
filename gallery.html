@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery | Genious IAS &amp; School of Humanities — Rohtak</title>
+  <meta name="description" content="Photo and video gallery of Genious IAS Rohtak — classrooms, seminars, celebrations and campus life across both branches.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="gallery.html">
+
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- ==================== PRELOADER ==================== -->
+  <div class="preloader" id="preloader" aria-hidden="true">
+    <div class="preloader-inner">
+      <div class="preloader-logo"><i class="fa-solid fa-landmark"></i></div>
+      <div class="preloader-text">Genious IAS</div>
+      <div class="preloader-sub">School of Humanities</div>
+      <div class="preloader-bar"><span></span></div>
+    </div>
+  </div>
+
+  <!-- ==================== HEADER / NAVBAR ==================== -->
+  <header class="site-header" id="siteHeader">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html" aria-label="Genious IAS — Home">
+        <span class="brand-logo"><i class="fa-solid fa-graduation-cap"></i></span>
+        <span class="brand-text">
+          <span class="brand-name">Genious <em>IAS</em></span>
+          <span class="brand-tag">School of Humanities</span>
+        </span>
+      </a>
+
+      <nav class="nav-menu" id="navMenu" aria-label="Primary navigation">
+        <ul class="nav-list">
+          <li><a class="nav-link" href="index.html">Home</a></li>
+
+          <li class="dropdown">
+            <button class="nav-link dropdown-toggle" type="button" aria-expanded="false" aria-haspopup="true">
+              About <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a href="about.html">About Overview</a></li>
+              <li><a href="genius-ias.html"><i class="fa-solid fa-building-columns"></i> Genious IAS</a></li>
+              <li><a href="school-of-humanities.html"><i class="fa-solid fa-scale-balanced"></i> School of Humanities</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown">
+            <button class="nav-link dropdown-toggle" type="button" aria-expanded="false" aria-haspopup="true">
+              Courses <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a href="courses.html">All Programmes Overview</a></li>
+              <li><a href="genius-ias-courses.html"><i class="fa-solid fa-user-tie"></i> Genious IAS Courses</a></li>
+              <li><a href="humanities-courses.html"><i class="fa-solid fa-book-open"></i> School of Humanities Courses</a></li>
+            </ul>
+          </li>
+
+          <li><a class="nav-link" href="results.html">Results</a></li>
+          <li><a class="nav-link active" aria-current="page" href="gallery.html">Gallery</a></li>
+          <li><a class="nav-link" href="contact.html">Contact Us</a></li>
+
+          <li class="nav-enquire-mobile"><a class="btn btn-gold btn-sm" href="contact.html">Enquire Now</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a class="btn btn-gold btn-sm nav-enquire" href="contact.html"><i class="fa-solid fa-pen-to-square"></i> Enquire Now</a>
+        <button class="hamburger" id="hamburger" type="button" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navMenu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+  <div class="mobile-overlay" id="mobileOverlay" aria-hidden="true"></div>
+
+  <main id="main">
+
+    <!-- ==================== PAGE HERO ==================== -->
+    <section class="page-hero">
+      <div class="container">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="index.html">Home</a>
+          <i class="fa-solid fa-chevron-right"></i>
+          <span>Gallery</span>
+        </nav>
+        <h1>Moments &amp; Memories</h1>
+        <p>A glimpse into daily life at Genious IAS and the School of Humanities — classrooms, seminars, celebrations and more.</p>
+      </div>
+    </section>
+
+    <!-- ==================== GALLERY FILTERS ==================== -->
+    <section class="section-sm bg-white" style="padding-bottom: 0;">
+      <div class="container">
+        <div class="filter-bar" role="group" aria-label="Filter gallery items">
+          <button class="filter-chip active" type="button" data-filter="all"><i class="fa-solid fa-border-all"></i> All Items</button>
+          <button class="filter-chip" type="button" data-filter="image"><i class="fa-solid fa-images"></i> Photos (8)</button>
+          <button class="filter-chip" type="button" data-filter="video"><i class="fa-solid fa-film"></i> Videos (5)</button>
+        </div>
+      </div>
+    </section>
+
+    <!--
+      =====================================================================
+      GALLERY CONTENT — replace files in assets/images/ and assets/videos/
+      keeping the same filenames to update this page instantly.
+      Main gallery contains exactly: 8 <img> items and 5 <video> items.
+      =====================================================================
+    -->
+
+    <!-- ==================== PHOTO GALLERY (8 images) ==================== -->
+    <section class="section bg-white gallery-group" id="photos" aria-labelledby="photos-heading">
+      <div class="container">
+        <div class="gallery-group-title reveal">
+          <h2 id="photos-heading">Photo Gallery</h2>
+          <span class="count-pill">8 Photos</span>
+        </div>
+
+        <div class="gallery-grid">
+          <figure class="gallery-item reveal" data-type="image" data-delay="0">
+            <img src="genious websites pics/WhatsApp Image 2026-08-27 at 9.37.57 AM (1).jpeg" alt="Genious IAS classroom during an interactive UPSC lecture" loading="lazy" width="480" height="360">
+            <span class="gi-zoom"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+            <div class="gi-overlay"><span class="gi-caption"><i class="fa-solid fa-camera"></i> Interactive Classroom Session</span></div>
+          </figure>
+
+          <figure class="gallery-item reveal" data-type="image" data-delay="60">
+            <img src="genious websites pics/WhatsApp Image 2026-08-27 at 9.37.58 AM.jpeg" alt="Faculty member guiding students at Genious IAS Rohtak" loading="lazy" width="480" height="360">
+            <span class="gi-zoom"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+            <div class="gi-overlay"><span class="gi-caption"><i class="fa-solid fa-camera"></i> Faculty Guidance Hour</span></div>
+          </figure>
+
+          <figure class="gallery-item reveal" data-type="image" data-delay="120">
+            <img src="genious websites pics/WhatsApp Image 2026-08-27 at 9.37.59 AM (2).jpeg" alt="Students preparing in the Genious IAS library" loading="lazy" width="480" height="360">
+            <span class="gi-zoom"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+            <div class="gi-overlay"><span class="gi-caption"><i class="fa-solid fa-camera"></i> Library Study Time</span></div>
+          </figure>
+
+          <figure class="gallery-item reveal" data-type="image" data-delay="180">
+            <img src="genious websites pics/WhatsApp Image 2026-08-27 at 9.37.58 AM.jpeg" alt="Success celebration with selected students at the institute" loading="lazy" width="480" height="360">
+            <span class="gi-zoom"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+            <div class="gi-overlay"><span class="gi-caption"><i class="fa-solid fa-camera"></i> Selection Celebration</span></div>
+          </figure>
+
+          <figure class="gallery-item reveal" data-type="image" data-delay="240">
+            <img src="genious websites pics/WhatsApp Image 2026-08-27 at 9.37.58 AM (1).jpeg" alt="One-on-one doubt clearing session between mentor and student" loading="lazy" width="480" height="360">
+            <span class="gi-zoom"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+            <div class="gi-overlay"><span class="gi-caption"><i class="fa-solid fa-camera"></i> Doubt-Clearing Session</span></div>
+          </figure>
+
+          <figure class="gallery-item reveal" data-type="image" data-delay="300">
+            <img src="genious websites pics/WhatsApp Image 2026-08-27 at 9.37.58 AM.jpeg" alt="Career guidance seminar in the seminar hall" loading="lazy" width="480" height="360">
+            <span class="gi-zoom"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+            <div class="gi-overlay"><span class="gi-caption"><i class="fa-solid fa-camera"></i> Career Seminar</span></div>
+          </figure>
+
+          <figure class="gallery-item reveal" data-type="image" data-delay="360">
+            <img src="genious websites pics/WhatsApp Image 2026-08-27 at 9.38.01 AM.jpeg" alt="Mock test examination hall at Genious IAS" loading="lazy" width="480" height="360">
+            <span class="gi-zoom"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+            <div class="gi-overlay"><span class="gi-caption"><i class="fa-solid fa-camera"></i> Mock Test Day</span></div>
+          </figure>
+
+          <figure class="gallery-item reveal" data-type="image" data-delay="420">
+            <img src="genious websites pics/WhatsApp Image 2026-08-27 at 9.38.00 AM.jpeg" alt="School of Humanities students presenting in class activity" loading="lazy" width="480" height="360">
+            <span class="gi-zoom"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+            <div class="gi-overlay"><span class="gi-caption"><i class="fa-solid fa-camera"></i> Class Activity — School of Humanities</span></div>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== VIDEO GALLERY (5 videos) ==================== -->
+    <section class="section bg-ivory gallery-group" id="videos" aria-labelledby="videos-heading">
+      <div class="container">
+        <div class="gallery-group-title reveal">
+          <h2 id="videos-heading">Video Gallery</h2>
+          <span class="count-pill">5 Videos</span>
+        </div>
+
+        <div class="gallery-grid">
+          <figure class="gallery-item video-item reveal" data-type="video" data-delay="0">
+            <span class="video-tag">Video</span>
+            <video controls preload="metadata" aria-label="Campus walkthrough tour video">
+              <source src="assets/videos/video-01.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <div class="gi-overlay"><span class="gi-caption"><i class="fa-solid fa-video"></i> Campus Walkthrough</span></div>
+          </figure>
+
+          <figure class="gallery-item video-item reveal" data-type="video" data-delay="80">
+            <span class="video-tag">Video</span>
+            <video controls preload="metadata" aria-label="Classroom lecture recording">
+              <source src="assets/videos/video-02.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <div class="gi-overlay"><span class="gi-caption"><i class="fa-solid fa-video"></i> Inside A Lecture</span></div>
+          </figure>
+
+          <figure class="gallery-item video-item reveal" data-type="video" data-delay="160">
+            <span class="video-tag">Video</span>
+            <video controls preload="metadata" aria-label="Student testimonial video">
+              <source src="assets/videos/video-03.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <div class="gi-overlay"><span class="gi-caption"><i class="fa-solid fa-video"></i> Student Voices</span></div>
+          </figure>
+
+          <figure class="gallery-item video-item reveal" data-type="video" data-delay="240">
+            <span class="video-tag">Video</span>
+            <video controls preload="metadata" aria-label="Achievement celebration event video">
+              <source src="assets/videos/video-04.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <div class="gi-overlay"><span class="gi-caption"><i class="fa-solid fa-video"></i> Felicitation Event</span></div>
+          </figure>
+
+          <figure class="gallery-item video-item reveal" data-type="video" data-delay="320">
+            <span class="video-tag">Video</span>
+            <video controls preload="metadata" aria-label="Seminar and workshop highlights video">
+              <source src="assets/videos/video-05.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <div class="gi-overlay"><span class="gi-caption"><i class="fa-solid fa-video"></i> Seminar Highlights</span></div>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CTA ==================== -->
+    <section class="section-sm bg-white" aria-label="Call to action">
+      <div class="container">
+        <div class="cta-band reveal-zoom">
+          <h2>Experience The Campus In Person</h2>
+          <p>Pictures inspire — a campus visit convinces. Walk in any day between 8 AM and 7 PM.</p>
+          <div class="cta-actions">
+            <a class="btn btn-gold" href="contact.html"><i class="fa-solid fa-location-dot"></i> Plan Your Visit</a>
+            <a class="btn btn-outline-light" href="https://maps.google.com/?daddr=28.8955745,76.6083136" target="_blank" rel="noopener"><i class="fa-solid fa-diamond-turn-right"></i> Get Directions</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== LIGHTBOX (image viewer) ==================== -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer" hidden>
+    <button class="lb-btn lb-close" type="button" aria-label="Close viewer"><i class="fa-solid fa-xmark"></i></button>
+    <button class="lb-btn lb-prev" type="button" aria-label="Previous image"><i class="fa-solid fa-chevron-left"></i></button>
+    <figure class="lb-figure">
+      <img id="lightboxImg" src="" alt="">
+      <figcaption id="lightboxCaption"></figcaption>
+    </figure>
+    <button class="lb-btn lb-next" type="button" aria-label="Next image"><i class="fa-solid fa-chevron-right"></i></button>
+    <span class="lb-counter" id="lightboxCounter"></span>
+  </div>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="site-footer">
+    <div class="container footer-main">
+      <div class="footer-brand">
+        <a class="brand" href="index.html" aria-label="Genious IAS home">
+          <span class="brand-logo"><i class="fa-solid fa-graduation-cap"></i></span>
+          <span class="brand-text">
+            <span class="brand-name">Genious <em>IAS</em></span>
+            <span class="brand-tag">School of Humanities</span>
+          </span>
+        </a>
+        <p>
+          Rohtak's leading institute for civil services examination preparation and school-level
+          humanities education — a unit of Komal Educational Services.
+        </p>
+        <div class="footer-social">
+          <a href="https://www.facebook.com/geniusiasofficial/" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/geniusias" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://api.whatsapp.com/send?phone=917027222123" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="mailto:geniusiasofficial@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="index.html"><i class="fa-solid fa-chevron-right"></i> Home</a></li>
+          <li><a href="about.html"><i class="fa-solid fa-chevron-right"></i> About</a></li>
+          <li><a href="courses.html"><i class="fa-solid fa-chevron-right"></i> Courses</a></li>
+          <li><a href="results.html"><i class="fa-solid fa-chevron-right"></i> Results</a></li>
+          <li><a href="gallery.html"><i class="fa-solid fa-chevron-right"></i> Gallery</a></li>
+          <li><a href="contact.html"><i class="fa-solid fa-chevron-right"></i> Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Branches</h4>
+        <ul class="footer-links">
+          <li><a href="genius-ias.html"><i class="fa-solid fa-chevron-right"></i> Genious IAS</a></li>
+          <li><a href="school-of-humanities.html"><i class="fa-solid fa-chevron-right"></i> School of Humanities</a></li>
+          <li><a href="genius-ias-courses.html"><i class="fa-solid fa-chevron-right"></i> Genious IAS Courses</a></li>
+          <li><a href="humanities-courses.html"><i class="fa-solid fa-chevron-right"></i> Humanities Courses</a></li>
+          <li><a href="results.html"><i class="fa-solid fa-chevron-right"></i> Achievements</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Contact Info</h4>
+        <ul class="footer-contact">
+          <li>
+            <i class="fa-solid fa-location-dot"></i>
+            <span>3rd Floor, Above Bank of Baroda, Opp. Sheila Theatre, Sheila Bypass Road, Model Town, Rohtak, Haryana – 124001</span>
+          </li>
+          <li>
+            <i class="fa-solid fa-phone"></i>
+            <span><a href="tel:+917027222123">+91 70272 22123</a> · <a href="tel:+917027222124">+91 70272 22124</a></span>
+          </li>
+          <li>
+            <i class="fa-solid fa-envelope"></i>
+            <a href="mailto:geniusiasofficial@gmail.com">geniusiasofficial@gmail.com</a>
+          </li>
+          <li>
+            <i class="fa-solid fa-clock"></i>
+            <span>Mon–Sat: 8 AM – 7 PM · Sun: 9 AM – 6 PM</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© <span id="year">2026</span> Genious IAS · School of Humanities — Komal Educational Services. All rights reserved.</p>
+        <p>Made with <span class="gold-heart"><i class="fa-solid fa-heart"></i></span> for future officers.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== BACK TO TOP ==================== -->
+  <button class="back-to-top" id="backToTop" type="button" aria-label="Back to top">
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
